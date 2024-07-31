@@ -1,7 +1,6 @@
 # PPS
 
-# Homework (30/July/2024) : Introduction to Charles Babbage and Input/Output Devices
-
+## Homework (30/July/2024): Introduction to Charles Babbage and Input/Output Devices
 
 ---
 
@@ -45,7 +44,7 @@ Output devices are hardware components used to convey information from a compute
 
 ## Input Devices
 
-Input devices are hardware components used to provide data and control signals to a computer. Here is the list of input devices :
+Input devices are hardware components used to provide data and control signals to a computer. Here is the list of input devices:
 
 1. **Touchscreen**
 2. **Trackpad/Touchpad**
@@ -67,8 +66,16 @@ Input devices are hardware components used to provide data and control signals t
 
 ---
 
+## Definition and Full Form of Computer
+
+**Computer**: A computer is an electronic device that manipulates information or data. It has the ability to store, retrieve, and process data. Computers are used to perform a variety of tasks, including word processing, internet browsing, gaming, programming, and data analysis.
+
+**Full Form of Computer**: Common Operating Machine Purposely Used for Technological and Educational Research.
+
+---
+
 ## Programming for Problem Solving (PPS)
 
-In this homework, I've explored the pioneering work of Charles Babbage, who laid the groundwork for modern computers. I've also listed various input and output devices essential for interacting with computers. 
+In this homework, I've explored the pioneering work of Charles Babbage, who laid the groundwork for modern computers. I've also listed various input and output devices essential for interacting with computers, along with the full form and definition of a computer.
 
 ---
