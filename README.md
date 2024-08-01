@@ -1,6 +1,6 @@
 # PPS
 
-## Homework (30/July/2024): Introduction to Charles Babbage and Input/Output Devices
+## Homework 30/07/2024
 
 ---
 
@@ -74,8 +74,26 @@ Input devices are hardware components used to provide data and control signals t
 
 ---
 
-## Programming for Problem Solving (PPS)
+# Homework 1/08/2024
 
-In this homework, I've explored the pioneering work of Charles Babbage, who laid the groundwork for modern computers. I've also listed various input and output devices essential for interacting with computers, along with the full form and definition of a computer.
+## **Difference between Volatile memory and Non-Volatile Memory**
+
+
+| **Feature**              | **Volatile Memory**                                      | **Non-Volatile Memory**                                  |
+|--------------------------|-----------------------------------------------------------|----------------------------------------------------------|
+| **Definition**           | Requires power to maintain data; data is lost when power is off | Retains data without power; data is preserved when power is off |
+| **Examples**             | - RAM (Random Access Memory) <br> - Cache Memory <br> - Registers | - Hard Drives (HDDs) <br> - Solid-State Drives (SSDs) <br> - Flash Memory (USB drives, SD cards) <br> - ROM (Read-Only Memory) |
+| **Speed**                | Typically faster; allows quick access to data          | Generally slower; SSDs offer faster speeds compared to HDDs |
+| **Data Retention**       | Loses data when power is off                             | Retains data without power                               |
+| **Primary Use**          | Temporary storage for data currently being processed    | Long-term storage for operating systems, applications, and user data |
+| **Cost**                 | Generally less expensive per byte compared to non-volatile memory | Typically more expensive per byte than volatile memory, though prices vary |
+| **Volatility**           | High; data is volatile and needs constant power          | Low; data is non-volatile and remains intact without power |
+| **Write Endurance**      | Not applicable (focuses on speed and temporary storage)  | Varies; SSDs and flash memory have limited write cycles, but HDDs have virtually unlimited write endurance |
+| **Capacity**             | Often used in smaller capacities due to cost and function | Used for larger capacities; ideal for bulk storage       |
+| **Performance Impact**   | Crucial for system performance and speed in multitasking | Affects boot time and load times; performance varies based on type (HDD vs SSD) |
+| **Examples in Devices**  | - Desktop/Laptop RAM <br> - Smartphone RAM <br> - CPU cache | - Personal computers (SSD/HDD) <br> - USB flash drives <br> - Embedded systems (firmware in ROM) |
+
+
+
 
 ---
