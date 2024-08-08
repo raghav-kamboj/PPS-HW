@@ -467,4 +467,89 @@ In summary, the compiler, assembler, loader, and linker each play a vital role i
 | **Examples**           | NASM, MASM                                                    | Operating system loaders                                     | Python Interpreter, Node.js                                 | GCC, Clang                                                  | GNU Linker, Microsoft Linker                                |
 | **Role in Development**| Converts human-readable code to machine-readable instructions | Prepares and loads executable code into memory               | Provides real-time code execution for rapid development     | Transforms and optimizes code for efficient execution       | Integrates various code modules and resolves references     |
 
+
+## Pseudocode example
+
+
+### **Check Odd or Even**
+
+1. **Start**
+2. Read the value of `x`
+3. **If** `x = 2n` then
+   - Write "x is even"
+4. **Else**
+   - Write "x is odd"
+5. **Close**
+
+### **Simple Interest**
+
+1. **Start**
+2. Read the values of `P`, `R`, and `T`
+3. Calculate `S.I` using the formula:
+   S.I=[(P X R X T)]/100
+4. Write the value of `S.I`
+5. **Close**
+
+### **18+ Age Check**
+
+1. **Start**
+2. Read the value of `A`
+3. **If** `A ≥ 18` then
+   - Write "Eligible to vote"
+4. **Else**
+   - Write "Not eligible to vote"
+5. **Stop**
+
+### **Check if Number is Imaginary**
+
+1. **Start**
+2. Read the value of `c = a + ib`
+3. **If** `b = 0` then
+   - Write "c is not imaginary"
+4. **Else**
+   - Write "c is imaginary"
+5. **Close**
+
+### **Fahrenheit to Celsius Conversion**
+
+1. **Start**
+2. Read the value of `F`
+3. Calculate `C` using the formula:
+   
+   C = [5*(F - 32)]/9
+
+4. Write the value of `C`
+5. **Stop**
+
+### **Radian to Degree Conversion**
+
+1. **Start**
+2. Read the value of `R`
+3. Calculate `D` using the formula:
+   
+   D = [R*180]\pi
+   
+4. Write the value of `D`
+5. **Stop**
+
+### **Percentage Calculator**
+
+1. **Start**
+2. Read the values of `S1`, `S2`, `S3`, `S4`, and `S5`
+3. Calculate the percentage using the formula:
+
+   % = [(S1 + S2 + S3 + S4 + S5) \ 100]*5
+   
+4. Write the value of the percentage
+5. **Stop**
+
+### **Battery Checker**
+
+1. **Start**
+2. Read the value of `C`
+3. **If** `C < 20` then
+   - Write "Battery low"
+4. **Else**
+   - Write "Battery level OK"
+5. **Stop**
 ---
