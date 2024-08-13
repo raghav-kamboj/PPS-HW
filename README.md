@@ -552,4 +552,29 @@ In summary, the compiler, assembler, loader, and linker each play a vital role i
 4. **Else**
    - Write "Battery level OK"
 5. **Stop**
+
+### Algorithm: Convert Hours to Minutes
+
+1. **Start**
+2. **Input** the number of hours `h`.
+3. **Calculate** the minutes by multiplying the hours by 60:
+   - `minutes = h * 60`
+4. **Output** the result (minutes).
+5. **End**
+
+### Algorithm: Check if a Number is Positive, Negative, or Zero
+
+1. **Start**
+2. **Input** the number `n`.
+3. **Check Condition 1**: 
+   - If `n > 0`, then the number is **positive**.
+   - Go to Step 6.
+4. **Check Condition 2**:
+   - If `n < 0`, then the number is **negative**.
+   - Go to Step 6.
+5. **Else**:
+   - If `n == 0`, then the number is **zero**.
+6. **Output** the result (positive, negative, or zero).
+7. **End**
+
 ---
