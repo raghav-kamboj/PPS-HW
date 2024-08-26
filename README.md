@@ -577,4 +577,174 @@ In summary, the compiler, assembler, loader, and linker each play a vital role i
 6. **Output** the result (positive, negative, or zero).
 7. **End**
 
+# Home task 26/08/2024
+
+```
+//Write a program to find the sum of two numbers.
+
+#include <iostream>
+using namespace std;
+int main(){
+    float a; float b;
+    cout<< "Enter the value of 1st number:";
+    cin>>a;
+    cout<< "Enter the value of 2st number:";
+    cin>>b;
+    float outcome = a + b;
+    cout<<"Sum of two numbers are:"<< outcome<<endl;
+    return 0;
+}
+```
+
+```
+//Write a program to find the area of the circle.
+
+#include <iostream>
+using namespace std;
+int main(){
+    float a;     cout<< "Enter the value of radius of the circle:";
+    cin>>a;
+    float outcome = 3.14*a*a;
+    cout<<"Area of circle is:"<< outcome<<endl;
+    return 0;
+}
+```
+
+```
+//Write a program to find the circumference of a circle.
+
+
+#include <iostream>
+using namespace std;
+int main(){
+    float a;    
+    cout<< "Enter the value of radius of the circle:";
+    cin>>a;
+    float outcome = 2*3.14*a;
+    cout<<"Circumference of circle is:"<< outcome<<endl;
+    return 0;
+}
+```
+
+
+```
+//Write a program to find simple interest.
+
+
+#include <iostream>
+using namespace std;
+int main(){
+    float p;
+    float r;
+    float t;
+    cout<< "Enter the value of Principle:";
+    cin>>p;
+    cout<< "Enter the value of Rate of intrest:";
+    cin>>r;
+    cout<< "Enter the value of time:";
+    cin>>t;
+    float outcome = 0.01*p*r*t;
+    cout<<"Simple Intrest is:"<< outcome<<endl;
+    return 0;
+}
+```
+
+```
+//Write a program to convert temperature from degree centigrade to Fahrenheit.
+
+#include <iostream>
+using namespace std;
+int main(){
+    float c;
+    cout<< "Enter the value of Temperature in centigrade:";
+    cin>>c;
+    float outcome = 1.8*c + 32;
+    cout<<"Simple Intrest is:"<< outcome<<endl;
+    return 0;
+}
+
+```
+
+```
+//Write a program to sum of marks obtained in five courses, average of marks and percentage of marks
+#include <iostream>
+using namespace std;
+
+int main(){
+    float a, b, c, d, e;
+
+    cout << "Enter the value of 1st number: ";
+    cin >> a;
+    cout << "Enter the value of 2nd number: ";
+    cin >> b;
+    cout << "Enter the value of 3rd number: ";
+    cin >> c;
+    cout << "Enter the value of 4th number: ";
+    cin >> d;
+    cout << "Enter the value of 5th number: ";
+    cin >> e;
+
+    // Calculating sum, average, and percentage
+    float sum = a + b + c + d + e;
+    float average = sum / 5;
+    float percentage = (sum / 500) * 100; // Assuming each subject is out of 100 marks
+
+    // Displaying the results
+    cout << "Sum of marks: " << sum << endl;
+    cout << "Average of marks: " << average << endl;
+    cout << "Percentage of marks: " << percentage << "%" << endl;
+
+    return 0;
+}
+
+
+```
+
+```
+//Write a program to print a table of a number.
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    float a;
+
+    cout << "Enter the value of number N : ";
+    cin >> a;
+    float p0 = a*0;
+    float p1 = a*1;
+    float p2 = a*2;
+    float p3 = a*3;
+    float p4 = a*4;
+    float p5 = a*5;
+    float p6 = a*6;
+    float p7 = a*7;
+    float p8 = a*8;
+    float p9 = a*9;
+    float p10 = a*10;
+    
+
+    
+    cout << "N x 0:" << p0 << endl;
+    cout << "N x 01:" << p1 << endl;
+    cout << "N x 02:" << p2 << endl;
+    cout << "N x 03:" << p3 << endl;
+    cout << "N x 04:" << p4 << endl;
+    cout << "N x 05:" << p5 << endl;
+    cout << "N x 06:" << p6 << endl;
+    cout << "N x 07:" << p7 << endl;
+    cout << "N x 08:" << p8 << endl;
+    cout << "N x 09:" << p9 << endl;
+    cout << "N x 10:" << p10 << endl;
+    return 0;
+}
+
+
+```
+
+
+
+
+
+
 ---
