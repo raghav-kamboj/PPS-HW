@@ -741,8 +741,184 @@ int main(){
 
 
 ```
+# Homework 25/09/24
+
+## 1. Print the pattern using for loop (triangleHeight = 10):
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int triangleHeight = 10;
+    for (int i = 1; i <= triangleHeight; i++) {
+        for (int j = 1; j <= i; j++) {
+            cout << "#";
+        }
+        cout << endl;
+    }
+    return 0;
+}
+```
+
+## 2. Display the first 10 numbers and their sum and average:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int sum = 0;
+    for (int i = 1; i <= 10; i++) {
+        cout << i << " ";
+        sum += i;
+    }
+    cout << "\nSum = " << sum;
+    cout << "\nAverage = " << sum / 10.0;
+    return 0;
+}
+```
+
+## 3. Fibonacci series up to 100:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 0, b = 1, nextTerm = 0;
+    cout << a << " " << b << " ";
+
+    while (nextTerm <= 100) {
+        nextTerm = a + b;
+        if (nextTerm > 100) break;
+        cout << nextTerm << " ";
+        a = b;
+        b = nextTerm;
+    }
+    return 0;
+}
+```
+
+## 4. Display n terms of natural numbers and their sum:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, sum = 0;
+    cout << "Enter number of terms: ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        cout << i << " ";
+        sum += i;
+    }
+    cout << "\nSum = " << sum;
+    return 0;
+}
+```
+
+## 5. Read 10 numbers from the keyboard and find their sum and average:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numbers[10], sum = 0;
+    
+    cout << "Enter 10 numbers:\n";
+    for (int i = 0; i < 10; i++) {
+        cin >> numbers[i];
+        sum += numbers[i];
+    }
+
+    cout << "Sum = " << sum << endl;
+    cout << "Average = " << sum / 10.0 << endl;
+    return 0;
+}
+```
+
+## 6. Display the cube of numbers up to a given integer:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        cout << "Cube of " << i << " = " << (i * i * i) << endl;
+    }
+    return 0;
+}
+```
+
+## 7. Display the multiplication table of a given integer:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+
+    for (int i = 1; i <= 10; i++) {
+        cout << n << " x " << i << " = " << n * i << endl;
+    }
+    return 0;
+}
+```
+
+## 8. Display n terms of odd natural numbers and their sum:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, sum = 0;
+    cout << "Enter number of terms: ";
+    cin >> n;
+
+    for (int i = 1, count = 0; count < n; i += 2) {
+        cout << i << " ";
+        sum += i;
+        count++;
+    }
+    cout << "\nSum = " << sum << endl;
+    return 0;
+}
+```
+
+## 9. Make a pattern like a right-angled triangle with numbers increasing by 1:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num = 1;
+
+    for (int i = 1; i <= 4; i++) {
+        for (int j = 1; j <= i; j++) {
+            cout << num << " ";
+            num++;
+        }
+        cout << endl;
+    }
+    return 0;
+}
+```
 
 
+---
 
 
 
